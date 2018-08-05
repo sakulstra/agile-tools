@@ -1,0 +1,23 @@
+{
+  "name": "agiletools",
+  "version": "0.0.1",
+  "description": "Agile tools for github",
+  "scripts": {
+    "precommit": "pretty-quick --staged"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sakulstra/agile-tools.git"
+  },
+  "author": "Lukas Strassel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sakulstra/agile-tools/issues"
+  },
+  "homepage": "https://github.com/sakulstra/agile-tools#readme",
+  "devDependencies": {
+    "husky": "^0.14.3",
+    "prettier": "1.14.0",
+    "pretty-quick": "^1.6.0"
+  }
+}
